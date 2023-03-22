@@ -19,12 +19,12 @@ body {
     display: inline-block;
   }
   .wheater-content{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     max-width: 500px;
     text-align: center;
-    background-color: #164dad3d;
+    background-color: #164dad26;
     border-radius: 1rem;
-    margin: 350px auto 0;
+    margin: 100px auto;
     padding: 20px 50px 50px;
     border: 1px solid rgba(0, 0, 0, 0.09);
   }
@@ -43,12 +43,12 @@ body {
     margin: 1rem;
   }
   .result h5{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
   }
   .result h2{
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.293);
     color: white;
@@ -75,6 +75,9 @@ form select{
     border-radius: .5rem;
     padding: .7rem;
 }
+form select:hover{
+    cursor: pointer;
+}
 .button{
     background-color: #ffc400;
     color: white;
@@ -84,4 +87,8 @@ form select{
 .button:hover{
     background-color: #ccaf4e;
     transition: 1s;
+    cursor: pointer;
+}
+.alert-message{
+    color: red;
 }
