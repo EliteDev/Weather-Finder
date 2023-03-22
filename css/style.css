@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto+Condensed&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background:
+      linear-gradient(
+        #387ffb 0%,
+        #34c4ff 40%, 
+        #ffc6d0 75%, 
+        #ffceaa 95%
+      );
+  }
+  
+  body:after {
+    display: inline-block;
+  }
+  .wheater-content{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 500px;
+    text-align: center;
+    background-color: #164dad3d;
+    border-radius: 1rem;
+    margin: 350px auto 0;
+    padding: 20px 50px 50px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+  }
+  .wheater-content h1{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.293);
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: white;
+  }
+  .wheater-content p {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .result{
+    margin: 1rem;
+  }
+  .result h5{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .result h2{
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.293);
+    color: white;
+
+  }
+  .result p{
+    margin: 1px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+  }
+  .get-weather{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex-wrap: wrap;
+  }
+form input {
+    border-radius: .5rem;
+    padding: .7rem;
+}
+form select{
+    border-radius: .5rem;
+    padding: .7rem;
+}
+.button{
+    background-color: #ffc400;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+}
+.button:hover{
+    background-color: #ccaf4e;
+    transition: 1s;
+}
